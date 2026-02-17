@@ -56,7 +56,7 @@ article {
     margin-bottom: 30px;
     border-radius: 5px;
 }
-
+/*mcp and tron are just colors for good guy and bad guy*/
 .mcp-theme {
     color: #ff3300;
 }
@@ -90,14 +90,7 @@ samp { /*samp sets text as an output for the system to indentify, but for this i
     font-family: monospace;
     border: 1px solid #33ff33;
 }
-samp {  
-    display: block;
-    background: #111;
-    padding: 10px;
-    color: #33ff33;
-    font-family: monospace;
-    border: 1px solid #33ff33;
-}
+
 .samp-red{
     color: #ff3300;
     border-color: #ff3300;
@@ -127,7 +120,13 @@ ins {
     float: right; 
     margin-left: 20px;
 }
-
+.poster2 {
+    width: 200px;
+    height: auto;
+    border: 1px solid #ff6666;
+    box-shadow: 0 0 10px rgba(0, 255, 255, 0.5);
+    
+}
 article::after {
     content: "";
     display: table;
