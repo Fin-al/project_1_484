@@ -1,0 +1,176 @@
+body {
+    background-color: #020202;
+    background-image: 
+        linear-gradient(rgba(0, 255, 255, 0.05) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(0, 255, 255, 0.05) 1px, transparent 1px);
+    background-size: 50px 50px;
+    color: #ffffff;
+    font-family: "Courier New", Courier, monospace;
+    margin: 0;
+    padding: 0;
+}/*Adds grid background, The Grid(Legacy)*/
+
+header {
+    border-bottom: 3px solid #00ffff;
+    padding: 30px;
+    text-align: center;
+    box-shadow: 0 0 20px #00ffff;
+    background: #000;
+}
+
+nav {
+    margin-top: 20px;
+}
+
+nav a {
+    color: #00ffff;
+    text-decoration: none;
+    margin: 0 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+nav a:hover { 
+    text-shadow: 0 0 10px #00ffff;
+}/*lights up when the mouse hovers it*/
+
+main {
+    max-width: 1000px;
+    margin: 50px auto;
+    padding: 20px;
+}
+h1{color: #00ffff;
+    font-size: 45px;
+    text-transform: uppercase
+}
+h2 {
+    color: #00ffff;
+    text-transform: uppercase;
+}
+
+article {
+    background: rgba(10, 10, 10, 0.8);
+    border: 1px solid #333;
+    padding: 25px;
+    margin-bottom: 30px;
+    border-radius: 5px;
+}
+
+.mcp-theme {
+    color: #ff3300;
+}
+
+.mcp-border {
+    border-left: 5px solid #ff3300;
+}
+.tron-old{
+    border-left: 5px solid #ffffff;
+}
+.tron-legacy{
+    border-left: 5px solid #00ffff;
+}
+[inert] { /*One of the attributes i am using, it pretty much disables the things inside inert*/
+    opacity: 0.9;
+    filter: blur(2px);
+    pointer-events: none; 
+}
+
+dfn {
+    font-style: normal;
+    color: #00ffff;
+    border-bottom: 1px dashed #00ffff;
+}
+
+samp { /*samp sets text as an output for the system to indentify, but for this its used for user entrance*/
+    display: block;
+    background: #111;
+    padding: 10px;
+    color: #33ff33;
+    font-family: monospace;
+    border: 1px solid #33ff33;
+}
+samp {  
+    display: block;
+    background: #111;
+    padding: 10px;
+    color: #33ff33;
+    font-family: monospace;
+    border: 1px solid #33ff33;
+}
+.samp-red{
+    color: #ff3300;
+    border-color: #ff3300;
+}
+.samp-warning {
+    color: #ffff00;
+    border-color: #ffff00;
+}
+
+del {/*line crossing through text, redacted text*/
+    background-color: rgba(255, 0, 0, 0.2);
+    text-decoration: line-through;
+    color: #ff6666;
+}
+
+ins {
+    background-color: rgba(0, 255, 0, 0.1);
+    text-decoration: none;
+    border-bottom: 1px solid #00ff00;
+}
+ 
+.poster {
+    width: 200px;
+    height: auto;
+    border: 1px solid #00ffff;
+    box-shadow: 0 0 10px rgba(0, 255, 255, 0.5);
+    float: right; 
+    margin-left: 20px;
+}
+
+article::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.video-container {
+    max-width: 800px;
+    margin: 20px auto;
+    border: 2px solid #00ffff;
+    background: #000;
+    line-height: 0; 
+}
+
+video {
+    display: block;
+}
+/*TABLE*/
+table {
+journal-entry {
+    margin-bottom: 40px;
+    padding: 20px;
+    border-left: 2px solid #00ffff;
+    background: rgba(0, 255, 255, 0.02);
+}
+
+.journal-entry h2 {
+    color: #00ffff;
+    text-shadow: 0 0 8px rgba(0, 255, 255, 0.5);
+    margin-top: 0;
+}
+
+ul {
+    list-style-type: "» "; /* Custom Tron-style bullet */
+    color: #e0faff;
+    padding-left: 20px;
+}
+
+li {
+    margin: 10px 0;
+}
+
+.archived-log {
+    border: 1px dashed #555;
+    padding: 15px;
+    margin-top: 50px;
+}
